@@ -267,6 +267,7 @@ RestrictedSecurity.OpenJCEPlusFIPS.FIPS140-3.jce.provider.1 = com.ibm.crypto.plu
     {Cipher, AES_192/KWP/NoPadding, *}, \
     {Cipher, AES_256/KW/NoPadding, *}, \
     {Cipher, AES_256/KWP/NoPadding, *}, \
+    {Cipher, RSA, *}, \
     {KeyAgreement, ECDH, *}, \
     {KeyFactory, DSA, *}, \
     {KeyFactory, EC, *}, \
